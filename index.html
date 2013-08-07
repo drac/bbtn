@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>BBtn</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="demo/image/favicon.png">
+
+				<link rel="stylesheet" href="demo/css/normalize.css">
+				<link rel="stylesheet" media="screen" href="demo/plugin/bootstrap/css/bootstrap.min.css">
+				<link rel="stylesheet" href="demo/plugin/bootstrap/css/bootstrap-responsive.min.css">
+				<link rel="stylesheet" href="demo/plugin/font-awesome/css/font-awesome.min.css">
+				<!--[if IE 7]>
+					<link rel="stylesheet" href="plugin/font-awesome/css/font-awesome-ie7.min.css">
+				<![endif]-->
+                <link href='http://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
+                
+				<link rel="stylesheet" href="demo/css/main.css">
+				<link rel="stylesheet" href="bbtn/bbtn.css">
+				<script src="demo/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+<div class="container-fluid" style="padding:0; padding-bottom:50px;">
+
+
+
+	<div class="row-fluid" style="background-color:#333;">
+		<div class="row-fluid">
+    		<div class="span6 offset3 showcase" style="margin-top:3%; margin-bottom:2%;">
+    			<a class="bbtn large2x rounded pull-left" role="button"><i class="icon-code-fork"></i> <i class="icon-code"></i> Бbtn</a>
+    			<a class="bbtn rounded blue pull-left" role="button"><i class="icon-cog"></i> Blue</a>
+    			<a class="bbtn rounded pull-left" role="button"><i class="icon-bullhorn"></i> Default</a>
+    			<a class="bbtn mini turquoise rounded pull-left" role="button"><i class="icon-facetime-video"></i> Turquoise</a>
+    			<a class="bbtn green rounded pull-left" role="button"><i class="icon-fighter-jet"></i> Green</a>
+    			<a class="bbtn red pull-left" role="button"><i class="icon-heart"></i> <i class="icon-terminal"></i> <i class="icon-thumbs-up-alt"></i></a>
+    			<a class="bbtn dark pull-left" role="button">Dark</a>
+    			<a class="bbtn grey rounded pull-left" role="button">Grey</a>
+    			<a class="bbtn mini yellow pull-left" type="button">Yellow</a>
+    			<a class="bbtn rounded white pull-left" type="button"><i class="icon-linux icon-large"></i> Бutton</a>
+    			<a class="bbtn red pull-left" role="button"><i class="icon-heart"></i> Red</a>
+    			<a class="bbtn dark pull-left" role="button">Dark</a>
+    			<a class="bbtn grey rounded pull-left" role="button">Grey</a>
+    			<a class="bbtn mini yellow pull-left" type="button">Yellow</a>
+    			<a class="bbtn white mini pull-left" type="button">white</a>
+    		</div>
+    	</div>
+		
+		<div class="row-fluid">
+		  <div class="span6 offset3" style="color:white;">
+		      <p>Бbtn is Open Source so it can be used for any project.
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="BBTN - Open source buttons" data-via="drac89" data-hashtags="bbtn">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		      </p>
+		  </div>
+		</div>
+	</div><!-- HEAD -->
+
+
+<div class="row-fluid">
+    <div class="span6 offset3">
+        <a class="bbtn large white nomargin-left" href=""><i class="icon-cloud-download"></i> Download</a>
+        <a class="bbtn large white" href="" title="Fork it on GitHub"><i class="icon-code-fork"></i> Fork It</a>
+        <a class="bbtn mini white rounded" href="https://github.com/dracs89" title="GitHub"><i class="icon-github icon-large"></i></a>
+        <a class="bbtn mini white rounded" href="https://twitter.com/drac89" title="Twitter"><i class="icon-twitter icon-large"></i></a>
+        <a class="bbtn mini white rounded" href="http://dribbble.com/drac" title="Dribbble"><i class="icon-dribbble icon-large"></i></a>
+    </div>
+</div>
+
+
+
+	<div class="row-fluid">
+  	<div class="span6 offset3 page-header">
+  		<h1>Usage</h1>
+			<p>Button styles can be applied to anything with the <code>.bbtn</code> class applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;div&gt;</code> elements for the best rendering.</p>
+  	</div>
+	</div>
+
+	<div class="row-fluid">
+  	<div class="span6 offset3">
+  			<p>
+				First of all you should <code>&lt;link&gt;</code> to bbtn.css
+				<pre>&lt;link rel="stylesheet" href="path-to/bbtn.css"&gt;</pre>
+			</p>
+			<br>
+			<p>
+				by using only the <code>&lt;a&gt;</code> tag
+				<pre>&lt;a href="#" class="bbtn" role="button"&gt;button-text&lt;/a&gt;</pre>
+			</p>
+			<br>
+			<p>
+				by using the <code>&lt;a&gt;</code> and <code>&lt;div&gt;</code> tags
+				<pre>&lt;a href="#"&gt;&lt;div class="bbtn" role="button"&gt;button-text&lt;/div&gt;&lt;/a&gt;</pre>
+			</p>
+			<br>
+			<p>
+                For the <strong>icons</strong> I used <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. It gives you scalable vector icons that can instantly be customized. It's in the demo/plugin/font-awesome folder. Visit It's website to learn more.
+			</p>
+  	</div>
+	</div>
+
+
+	<div class="row-fluid" style="margin-top:5%;">
+		<div class="row-fluid">
+			<div class="span6 offset3 page-header">
+				<h1>Colors <small>-just add the color name to class</small></h1>
+			</div>
+		</div>
+
+
+		<div class="row-fluid">
+			<div class="span6 offset3 showcase">
+
+				<table class="table" style="margin-bottom:0px;">
+					<thead>
+						<tr>
+							<th>Preview</th>
+							<th>class=" "</th>
+						</tr>
+					</thead>
+					<tbody>
+		
+						<tr>
+							<td><a class="bbtn" type="button">Бutton</a></td>
+							<td><code>bbtn</code></td>
+						</tr>
+				
+						<tr>
+							<td><a><div class="bbtn white" type="button">White</div></a></td>
+							<td><code>bbtn white</code></td>
+						</tr>
+
+		
+						<tr>
+							<td><a><div class="bbtn blue" type="button">Blue</div></a></td>
+							<td><code>bbtn blue</code></td>
+						</tr>
+				
+						<tr>
+							<td><a><div class="bbtn turquoise" type="button">Turquoise</div></a></td>
+							<td><code>bbtn turquoise</code></td>
+						</tr>
+		
+						<tr>
+							<td><a><div class="bbtn green" type="button">Green</div></a></td>
+							<td><code>bbtn green</code></td>
+						</tr>
+				
+						<tr>
+							<td><a><div class="bbtn red" type="button">Red</div></a></td>
+							<td><code>bbtn red</code></td>
+						</tr>
+		
+						<tr>
+							<td><a><div class="bbtn dark" type="button">Dark</div></a></td>
+							<td><code>bbtn dark</code></td>
+						</tr>
+				
+						<tr>
+							<td><a><div class="bbtn orange" type="button">Orange</div></a></td>
+							<td><code>bbtn orange</code></td>
+						</tr>
+		
+						<tr>
+							<td><a><div class="bbtn yellow" type="button">Yellow</div></a></td>
+							<td><code>bbtn yellow</code></td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div><!-- span6 offset3 -->
+		</div><!-- row-fluid showcase -->
+	</div><!-- row-fluid of colors -->
+
+
+	<div class="row-fluid" style="margin-top:5%;">
+		<div class="row-fluid">
+			<div class="span6 offset3 page-header">
+				<h1>Size <small>-just add the size name to class</small></h1>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span6 offset3 showcase">
+
+
+				<table class="table" style="margin-bottom:0px;">
+					<thead>
+						<tr>
+							<th>Preview</th>
+							<th>class=" "</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a class="bbtn blue mini" type="button">mini</a></td>
+							<td><code>bbtn mini</code></td>
+						</tr>
+				
+						<tr>
+							<td><a class="bbtn blue" type="button">default</a></td>
+							<td><code>bbtn (default no need class)</code></td>
+						</tr>
+
+		
+						<tr>
+							<td><a class="bbtn blue large" type="button">large</a></td>
+							<td><code>bbtn large</code></td>
+						</tr>
+				
+						<tr>
+							<td><a class="bbtn blue large2x" type="button">large2x</a></td>
+							<td><code>bbtn large2x</code></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- span6 offset3 -->
+		</div><!-- row-fluid showcase -->
+	</div><!-- row-fluid of sizes -->
+
+
+	<div class="row-fluid" style="margin-top:5%;">
+		<div class="row-fluid">
+			<div class="span6 offset3 page-header">
+				<h1>Style <small>-just add the style name to class</small></h1>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span6 offset3 showcase">
+
+
+				<table class="table" style="margin-bottom:0px;">
+					<thead>
+						<tr>
+							<th>Preview</th>
+							<th>class=" "</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><a class="bbtn white large" type="button">default</a></td>
+							<td><code>bbtn</code></td>
+						</tr>
+				
+						<tr>
+							<td><a class="bbtn white large rounded" type="button">rounded</a></td>
+							<td><code>bbtn rounded</code></td>
+						</tr>
+
+		
+						<tr>
+							<td><a class="bbtn white large shadow" type="button">shadow</a></td>
+							<td><code>bbtn shadow</code></td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div><!-- span6 offset3 -->
+		</div><!-- row-fluid showcase -->
+	</div><!-- row-fluid of sizes -->
+	
+	
+
+	<div class="row-fluid" style="margin-top:5%;">
+		<div class="row-fluid">
+			<div class="span6 offset3 page-header">
+				<h1>Customise <small>Want to add new colors?</small></h1>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span6 offset3 showcase">
+
+    			<br>
+    			<p>
+    				To add new color open <strong>bbtn.css</strong>and scroll down to <strong>bbtn colors</strong> section. Copy the code below and follow the instructions.
+    				<pre>
+.bbtn.&lt;color-name&gt; /* Replace &lt;color-name&gt; with your color name */
+{
+  background-color: #3498db; /* change background-color */
+  border-bottom-color: #2980b9; /* change border bottom color */
+  color: #ffffff !important; /* change button's text color but "!important" should stay */
+}
+
+.bbtn.&lt;color-name&gt; { /* Replace &lt;color-name&gt; with your color name */
+  background-color:#2980b9; /* use as the same color of "border-bottom-color"  */
+}
+    				</pre>
+    			</p>
+
+			</div><!-- span6 offset3 -->
+		</div><!-- row-fluid showcase -->
+	</div><!-- row-fluid of sizes -->
+
+</div><!-- container-fluid -->
+
+
+
+<div class="row-fluid footer">
+    <div class="span12 text-center">Thank You...</div>
+</div>
+
+
+
+
+
+
+<!--==========================================================================
+     Javascript Unit
+				-connect your Google Analytics account easily.
+    ==========================================================================-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="demo/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="demo/js/plugins.js"></script>
+				<script src="demo/plugin/bootstrap/js/bootstrap.min.js"></script>
+        <script src="demo/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+-->
+
+    </body>
+</html>

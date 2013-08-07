@@ -1,0 +1,8 @@
+container in içinde sırasıyla
+bir kare hangi sectiona ait olduğunu belirten
+ardından
+bir kare daha kaç puanı olduğunu gösteren
+
+
+
+post container: title + paragraph + photo

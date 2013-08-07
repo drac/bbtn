@@ -1,0 +1,253 @@
+/*
+=========================================
+				bbtn
+=========================================
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Seyhan HUSEYIN (Twitter:drac89)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+
+/*
+=================
+  bbtn Defaults
+=================
+*/
+
+/* a tag fix */
+a.bbtn {text-decoration:none !important;}
+a.bbtn:hover {color:none !important;}
+a.bbtn:focus {color:none !important;}
+a.bbtn:active {color:none !important;}
+/*------------------------------*/
+
+.bbtn {
+	display: inline-block;
+    *display: inline;
+	text-align: center !important;
+	cursor: pointer;
+	margin: 5px;
+	color: #333 !important;
+}
+
+.bbtn {
+	background-color: #ecf0f1;
+	border-bottom: 2px solid #bdc3c7;
+	border-radius: 1px;
+}
+
+.bbtn:active {
+	background-color: #bdc3c7;
+}
+
+/*
+=================
+  bbtn sizes
+=================
+*/
+
+.bbtn.mini {
+	min-width: 30px !important;
+	height: auto !important;
+	padding: 2px 6px !important;
+	font-size: 0.825em !important;
+}
+
+.bbtn {
+	min-width: 40px !important;
+	height: auto !important;
+	padding: 4px 8px !important;
+	font-size: 0.875em !important;
+}
+
+.bbtn.large {
+    min-width: 50px !important;
+    height: auto !important;
+    font-size: 1.2em !important;
+    padding: 8px 16px !important;
+    border-bottom-width: 3px !important;
+    border-radius: 2px !important;
+}
+
+.bbtn.large2x {
+    min-width: 80px !important;
+    height: auto !important;
+    font-size: 1.6em !important;
+    padding: 16px 20px !important;
+    border-bottom-width: 4px !important;
+    border-radius: 2px !important;
+}
+
+
+/*
+=================
+  bbtn rounded
+=================
+*/
+
+.bbtn.rounded {border-radius: 4px !important;}
+.bbtn.large.rounded {border-radius: 6px !important;}
+.bbtn.large2x.rounded {border-radius: 10px !important;}
+
+
+
+/*
+=================
+  bbtn shadow
+=================
+*/
+
+
+.bbtn.mini.shadow {
+    -webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.4);
+    box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.4);
+}
+
+.bbtn.shadow {
+    -webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    1px 1px 3px rgba(50, 50, 50, 0.4);
+    box-shadow:         1px 1px 3px rgba(50, 50, 50, 0.4);
+}
+
+
+.bbtn.large.shadow {
+    -webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    1px 1px 3px rgba(50, 50, 50, 0.4);
+    box-shadow:         1px 1px 3px rgba(50, 50, 50, 0.4);
+}
+
+
+.bbtn.large2x.shadow {
+    -webkit-box-shadow: 1px 1px 4px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    1px 1px 4px rgba(50, 50, 50, 0.4);
+    box-shadow:         1px 1px 4px rgba(50, 50, 50, 0.4);
+}
+
+/*
+=================
+  bbtn colors
+=================
+*/
+
+/* white */
+.bbtn.white {
+    border-top: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+	background-color: #ffffff;
+	border-bottom-color: #e2e2e2;
+}
+.bbtn.white:active {
+	background-color: #e2e2e2;
+}
+
+
+/* blue */
+.bbtn.blue {
+	background-color: #3498db;
+	border-bottom-color: #2980b9;
+	color: #ffffff !important;
+}
+.bbtn.blue:active {
+	background-color:#2980b9;
+}
+
+/* turquoise */
+.bbtn.turquoise {
+	background-color: #1abc9c;
+	border-bottom-color: #16a085;
+	color: #ffffff !important;
+}
+.bbtn.turquoise:active {
+	background-color: #16a085;
+}
+
+
+/* green */
+.bbtn.green {
+	background-color: #2ecc71;
+	border-bottom-color: #27ae60;
+	color: #ffffff !important;
+}
+.bbtn.green:active {
+	background-color: #27ae60;
+}
+
+/* green */
+.bbtn.green {
+	background-color: #2ecc71;
+	border-bottom-color: #27ae60;
+	color: #ffffff !important;
+}
+.bbtn.green:active {
+	background-color: #27ae60;
+}
+
+/* red */
+.bbtn.red {
+	background-color: #e74c3c;
+	border-bottom-color: #c0392b;
+	color: #ffffff !important;
+}
+.bbtn.red:active {
+	background-color: #c0392b;
+}
+
+/* dark */
+.bbtn.dark {
+	background-color: #34495e;
+	border-bottom-color: #2c3e50;
+	color: #ffffff !important;
+}
+.bbtn.dark:active {
+	background-color: #2c3e50;
+}
+
+/* grey */
+.bbtn.grey {
+	background-color: #95a5a6;
+	border-bottom-color: #7f8c8d;
+	color: #ffffff !important;
+}
+.bbtn.grey:active {
+	background-color: #7f8c8d;
+}
+
+/* yellow */
+.bbtn.yellow {
+	background-color: #f1c40f;
+	border-bottom-color: #f39c12;
+}
+.bbtn.yellow:active {
+	background-color: #f39c12;
+}
+
+/* orange */
+.bbtn.orange {
+	background-color: #e67e22;
+	border-bottom-color: #d35400;
+	color:#ffffff !important;
+}
+.bbtn.orange:active {
+	background-color: #d35400;
+}
