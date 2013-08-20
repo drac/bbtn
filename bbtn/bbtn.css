@@ -42,13 +42,12 @@ a.bbtn:active {color:none !important;}
 
 .bbtn {
 	display: inline-block;
-	*display: inline;
+  *display: inline;
 	text-align: center !important;
 	cursor: pointer;
 	margin: 5px;
 	color: #333 !important;
-
-
+	
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
